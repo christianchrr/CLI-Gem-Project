@@ -11,7 +11,7 @@ class Scraper
         restaurant_elements = parsed_html_elements.css(element)
         restaurant_elements.each do |element|
             restaurant = Restaurant.new
-            restaurant.name = element.text.strip
+            restaurant.name = element.text
             restaurant.link = "https://www.10best.com/"+element.css("a").first["href"] 
         end
     end
