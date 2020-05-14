@@ -6,6 +6,3 @@ require 'nokogiri'
 require 'pry'
 require 'open-uri'
 
-module CliProject
-  # Your code goes here...
-end

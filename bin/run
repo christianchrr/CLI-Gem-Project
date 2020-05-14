@@ -1,7 +1,7 @@
 #!/usr/bin/env ruby
 
 # require './lib/environment'
-require "bundler/setup"
+# require "bundler/setup"
 require "./lib/environment"
 
 CliProject::CLI.new.call
